@@ -1,0 +1,30 @@
+.proN {
+    background-color: rgba(118, 123, 179, 0.2);
+}
+
+.proN ul {
+    display: flex;
+    justify-content: center;
+}
+
+.proN li:hover {
+    background-color: rgba(66, 71, 128, 0.2);
+}
+
+.proN a {
+    color: black;
+}
+
+
+.nonN {
+    background-color: rgb(143, 180, 143);
+}
+
+.nonN ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nonN a {
+    color: grey;
+}

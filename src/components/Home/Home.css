@@ -1,0 +1,22 @@
+.porH {
+    width: 100%;
+}
+
+.proH h2, .proH p, .proH img {
+    display: flex;
+    justify-content: center;
+}
+
+.proH img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.nonH main{
+    margin-left: 40px;
+}
+
+.nonH h2 {
+    margin-left: 10px;
+}

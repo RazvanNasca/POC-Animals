@@ -1,0 +1,78 @@
+.proV .textInput {
+    text-align: center;
+    padding: 20px 40px 40px 40px;
+}
+
+.proV input {
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #8bbae0;
+    text-align: center;
+}
+
+.proV input::placeholder {
+    text-align: center; 
+    font-size: 14px;
+}
+
+.proV h3 {
+    text-align: center;
+}
+
+.proV .listOfCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.proV .card {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.nonV .textInput {
+    padding: 20px;
+}
+
+.nonV input {
+    width: 30%;
+    height: 25px;
+    border: 2px solid #cfe0ee;
+    text-align: center;
+    color: rgb(161, 154, 154);
+}
+
+.nonV h3 {
+    margin: 20px
+}
+
+.nonV .listOfCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nonV .card {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: pink
+}
+
+.nonV button {
+    padding: 2px !important;
+}
